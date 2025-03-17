@@ -16,6 +16,25 @@ def guess(x):
 
     print("Congratulations! You guessed the correct number 🎉")
 
-# Example usage:
+
 def computer_guess(x):
+    """A guessing game where the computer tries to guess the user's number."""
+    low = 1
+    high = x
+    feedback = ''
+
+    while feedback != 'c':  # Loop until the computer guesses correctly
+        guess_number = random.randint(low, high)  # Computer makes a guess
+        feedback = input(f"Is {guess_number} too high (H), too low (L), or correct (C)? ").lower()
+
+        if feedback == 'h':
+            high = guess_number - 1  # Adjust upper bound
+        elif feedback == 'l':
+            low = guess_number + 1  # Adjust lower bound
+
+    print(f"Yay! The computer guessed your number, {guess_number}, correctly! 🎉")
+
+
+computer_guess(100)
+
 guess(10)
