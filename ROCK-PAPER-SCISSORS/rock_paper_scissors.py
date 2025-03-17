@@ -7,7 +7,7 @@ def play():
     print(f"Computer chose: {computer}")  # Show computer's choice
 
     if user == computer:
-        return 'It\'s a tie'
+        return "It's a tie!"
 
     if is_win():
         return 'You won!'
