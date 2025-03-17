@@ -9,8 +9,8 @@ def play():
     if user == computer:
         return "It's a tie!"
 
-    if is_win():
-        return 'You won!'
+    if is_win(user, computer):  # Pass arguments to is_win()
+        return "You won!"
 
     return 'You, lost!'
 def is_win(player, opponent):
