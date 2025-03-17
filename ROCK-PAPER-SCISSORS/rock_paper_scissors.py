@@ -27,4 +27,5 @@ def is_win(player, opponent):
     return False  # Explicitly return False when the player doesn't win
 
 # Run the game
+
 print(play())
