@@ -17,4 +17,5 @@ def guess(x):
     print("Congratulations! You guessed the correct number 🎉")
 
 # Example usage:
+def computer_guess(x):
 guess(10)
