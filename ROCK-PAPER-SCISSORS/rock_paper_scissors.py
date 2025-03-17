@@ -12,7 +12,8 @@ def play():
     if is_win(user, computer):  # Pass arguments to is_win()
         return "You won!"
 
-    return 'You, lost!'
+    return "You lost!"
+
 def is_win(player, opponent):
     if (player == 'r' and opponent == 's') \
         or (player == 's' and opponent == 'p') \
