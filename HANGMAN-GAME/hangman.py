@@ -18,4 +18,3 @@ def hangman():
     user_latter = input('Guess a letter: ').upper()
 
 
-
