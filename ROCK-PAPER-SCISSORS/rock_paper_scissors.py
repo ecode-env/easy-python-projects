@@ -15,6 +15,7 @@ def play():
     return "You lost!"
 
 
+
 def is_win(player, opponent):
 
     """Returns True if the player beats the opponent."""
