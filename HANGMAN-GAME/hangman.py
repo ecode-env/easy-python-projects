@@ -8,5 +8,5 @@ def get_valid_word(words):
         word = random.choice(words)
     return word
 
-print(get_valid_word(words))
+def hangman():
     word = get_valid_word(words)
