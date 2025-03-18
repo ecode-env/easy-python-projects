@@ -10,3 +10,11 @@ def get_valid_word(words):
 
 def hangman():
     word = get_valid_word(words)
+    word_letters = set(word) # letter in the word
+    alphabet = set(string.ascii_uppercase)
+    used_letter = set()
+
+    # getting user input
+    user_latter = input('Guess a letter: ').upper()
+
+
