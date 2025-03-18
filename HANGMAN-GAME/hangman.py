@@ -9,3 +9,4 @@ def get_valid_word(words):
     return word
 
 print(get_valid_word(words))
+    word = get_valid_word(words)
