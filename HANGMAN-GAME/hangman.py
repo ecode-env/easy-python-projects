@@ -17,3 +17,4 @@ def hangman():
     # getting user input
     user_latter = input('Guess a letter: ').upper()
 
+
